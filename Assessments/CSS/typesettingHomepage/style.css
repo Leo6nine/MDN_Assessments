@@ -1,0 +1,136 @@
+/* General setup */
+
+* {
+    box-sizing: border-box;
+  }
+  @font-face {
+    font-family: "warrior";
+    src: url(./Warrior_of_World_Regular.ttf);
+}
+@font-face {
+    font-family: "courier prime";
+    src: url(./Courier_Prime.ttf);
+}
+  
+  body {
+    margin: 0 auto;
+    min-width: 1000px;
+    max-width: 1400px;
+    font-family: 'courier prime', Courier, monospace;
+    font-size: 10px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+  }
+  h1, h2 {
+    font-family: 'warrior';
+    letter-spacing: 4px;
+  }
+  h1 {
+    font-size: 2.5rem;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  
+  /* Layout */
+  
+  section {
+    float: left;
+    width: 50%;
+  }
+  section > p:first-of-type::first-line {
+    text-indent: 20px;
+  }
+  
+  aside {
+    float: left;
+    width: 30%;
+  }
+  
+  nav {
+    float: left;
+    width: 20%;
+  }
+
+  nav ul {
+    
+  }
+
+  nav ul li {
+    width: 200px;
+    background-image: none;
+    list-style: none;
+    text-align: center;
+
+    box-shadow: 0 1px 1px rgba(252, 85, 85, 0.425), 0 0 3px rgba(252, 85, 85, 0.425), 0 2px 1px rgba(255, 32, 32, 0.795) inset;
+    margin-bottom: 5px;
+
+  }
+
+  nav ul li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+
+  /* unvisited link */
+a:link {
+    color: rgb(17, 0, 255);
+    text-decoration: underline;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: hotpink;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: rgb(4, 2, 163);
+    text-decoration: none;
+  }
+  
+  /* focused link */
+  a:focus {
+    color: rgb(36, 1, 75);
+    text-decoration: none;
+    outline: none;
+  }
+  
+  /* active link */
+  a:active {
+    color: rgb(186, 253, 1);
+    text-decoration: none;
+  }
+  p img {
+    width: 10px;
+  }
+
+  ul li {
+    background-image: url('./picBul.jpg');
+    background-size: 10px;
+    background-repeat: no-repeat;
+    
+  }
+
+  footer {
+    clear: both;
+  }
+  
+  header, section, aside, nav, footer {
+    padding: 20px;
+  }
+  
+  /* header and footer */
+  
+  header, footer {
+    border-top: 5px solid #a66;
+    border-bottom: 5px solid #a66;
+  }
+  
+  /* WRITE YOUR CODE BELOW HERE */
